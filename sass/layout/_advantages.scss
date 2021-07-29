@@ -1,0 +1,43 @@
+.section-advantages {
+	padding-top: 94px;
+}
+.middle-section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+.hide-text {
+	display: none;
+}
+.advantages__list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+.advantages__list.advantages__item {
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+}
+.advantages__item {
+	flex-basis: calc((100% - 120px) / 4);
+	margin-left: 30px;
+}
+.text-list {
+	font-family: Roboto;
+	font-style: normal;
+	color: var(--title-color);
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.grey-text {
+	color: var(--text-color);
+	line-height: 1.7;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	text-align: left;
+}

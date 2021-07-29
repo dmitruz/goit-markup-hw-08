@@ -1,0 +1,17 @@
+.contact-form-submit {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    padding: 6px 22px;
+    letter-spacing: 0.03em;
+    display: block;
+    border-radius: 4px;
+    background-color:  var(--color-link-title);
+    color: var(--address-text-color);
+    margin: 0 auto;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }

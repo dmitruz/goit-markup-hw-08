@@ -1,0 +1,22 @@
+.footer__list-icon {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+ .footer__icon-list {
+    display: flex;
+     width: 44px;
+     height: 44px;
+     justify-content: center;
+     align-items: center;
+     background-color: rgba(255, 255, 255, 0.1);
+     border-radius: 50%;
+     fill: #fff;
+     &:hover {
+         background: var(--color-link-title);
+     }
+     &:focus {
+        background: var(--color-link-title);
+     }
+    }

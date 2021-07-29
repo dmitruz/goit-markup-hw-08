@@ -1,0 +1,20 @@
+
+.link-active-port {
+    font-family: var(--main-font);
+    font-style: normal;
+    color: var(--color-link-title);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;  
+ }
+ .link-port {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0,02em;
+    color: var(--title-color);
+    text-decoration: none;
+ }
