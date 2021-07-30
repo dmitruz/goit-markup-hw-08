@@ -1069,38 +1069,48 @@ a {
 }
 
 .advantages__list.advantages__item:not(:last-child) {
-  margin-right: 30px;
+  margin: 0 auto;
 }
 
 .advantages__item {
   flex-basis: calc((100% - 120px) / 4);
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
-.text-list {
-  font-family: Roboto;
-  font-style: normal;
-  color: var(--title-color);
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.grey-text {
-  color: var(--text-color);
-  line-height: 1.7;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  text-align: left;
+@media screen and (min-width: 480px) {
+  .advantages__list.advantages__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .text-list {
+    font-family: Roboto;
+    font-style: normal;
+    color: var(--title-color);
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .grey-text {
+    color: var(--text-color);
+    line-height: 1.7;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
 .what-we-do-section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+@media screen and (max-width: 1200px) {
+  .what-we-do-section {
+    display: none;
+  }
 }
 
 .what-we-do__section-description {
@@ -1146,6 +1156,18 @@ a {
   background-color: var(--background-portfolio-button);
 }
 
+@media screen and (min-width: 480px) {
+  .advant-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 120px;
+    background-color: var(--our-team-background);
+    margin-bottom: 30px;
+  }
+}
+
 .icon-satelite {
   width: 70px;
   height: 70px;
@@ -1177,6 +1199,14 @@ a {
   padding-bottom: 94px;
 }
 
+@media screen and (min-width: 480px) {
+  .our-team-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--our-team-background);
+  }
+}
+
 .section-descriotion {
   font-family: Roboto;
   font-style: normal;
@@ -1204,10 +1234,6 @@ a {
   justify-content: center;
 }
 
-/*{
-	display: flex;
-	justify-content: space-between;
-}*/
 .logo-cards:not(:last-child) {
   margin-right: 10px;
 }
@@ -1246,6 +1272,14 @@ a {
   background: var(--color-link-footer);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .our-team-item {
+    background: var(--color-link-footer);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
+  }
 }
 
 .our-team__list {

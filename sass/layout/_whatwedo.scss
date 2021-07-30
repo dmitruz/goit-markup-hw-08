@@ -2,6 +2,11 @@
 	padding-bottom: 94px;
 	padding-top: 94px;
 }
+@media screen and (max-width: 1200px) {
+	.what-we-do-section {
+		display: none;
+	}
+}
 .what-we-do__section-description {
 	font-weight: bold;
 	font-size: 36px;
