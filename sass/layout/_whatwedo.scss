@@ -39,6 +39,18 @@
 	margin-bottom: 30px;
 	background-color: var(--background-portfolio-button);
 }
+@media screen and (min-width: 480px) {
+	.advant-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 450px;
+		height: 120px;
+		background-color: var(--our-team-background);
+		margin-bottom: 30px;
+	}
+	}
+
 .icon-satelite {
 	width: 70px;
 	height: 70px;
