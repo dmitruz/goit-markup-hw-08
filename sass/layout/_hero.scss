@@ -22,3 +22,22 @@
     text-transform: uppercase;
     color: var(--main-title-color);
  }
+ @media not all, screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+   .hero {
+    background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+    url(../images/header-mob2@2x.jpg);
+   }
+ .hero {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: var(--primary-background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+    url(../images/header-mob2.jpg);
+ }
+}
