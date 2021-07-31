@@ -70,7 +70,7 @@ img {
   .container {
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%;
+    width: 480px;
   }
 }
 
@@ -1282,12 +1282,14 @@ a {
   }
 }
 
-.our-team__list {
-  display: flex;
-  list-style: none;
-  margin-left: -30px;
-  margin-top: -50px;
-  align-items: center;
+@media screen and (min-width: 1200px) {
+  .our-team__list {
+    display: flex;
+    list-style: none;
+    margin-left: -30px;
+    margin-top: -50px;
+    align-items: center;
+  }
 }
 
 .worker-name {
