@@ -64,4 +64,25 @@
     letter-spacing: 0.03em;
     color: var(--company-text-color);
 }
+.client__list {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.client {
+	flex-basis: calc((100% - 60px) / 2);
+    margin-top: 30px;
+    margin-left: 30px;
+	width: 170px;
+	height: 92px;
+	&:hover {
+		border: 1px solid var(--color-link-title);
+		border-radius: 4px;
+	}
+	&:focus {
+		border: 1px solid var(--color-link-title);
+		border-radius: 4px;
+	}
 }
