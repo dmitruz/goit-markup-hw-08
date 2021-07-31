@@ -1,3 +1,5 @@
+@media screen and (min-width: 1200px) {
+
 .current-clients {
 	padding-top: 94px;
 	padding-bottom: 94px;
@@ -45,4 +47,9 @@
 			fill: var(--color-link-title);
 		}
 	}
+}
+}
+@media screen and (min-width: 480px) {
+	padding-top: 60px;
+    padding-bottom: 60px;
 }
