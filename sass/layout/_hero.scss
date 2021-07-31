@@ -1,5 +1,5 @@
 
-@media not all, screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) }
+@media not all, screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero {
  background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
  url(../images/heroimg.jpg);
@@ -65,4 +65,16 @@
   background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
     url(../images/header-mob@2x.jpg);
  }
+.hero__text {
+  margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
 }

@@ -1,3 +1,4 @@
+
 .button-order {
 	background: var(--color-link-title);
 	cursor: pointer;
@@ -26,5 +27,22 @@
 		outline: none;
 	}
 }
-
- 
+@media  screen and (min-width: 480px) {
+	.button-order {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 32px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--color-button);
+    background-color: var(--color-link-title);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+    border-color: transparent;
+    cursor: pointer;
+}
+}
