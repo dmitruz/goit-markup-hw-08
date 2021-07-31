@@ -1,8 +1,9 @@
-.hero {
+ @media screen and (min-width: 1200px)  {
+  .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
    
     url(../images/heroimg.jpg);
-    
+    max-width: 1600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,12 +22,15 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-title-color);
+  }
  }
  @media not all, screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
    .hero {
     background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
-    url(../images/header-mob2@2x.jpg);
+    url(../images/header-mob@2x.jpg);
    }
+
+@media screen and (min-width: 480px) {
  .hero {
   max-width: 480px;
   margin-left: auto;
@@ -38,6 +42,5 @@
   background-size: cover;
   background-position: 50% 50%;
   background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
-    url(../images/header-mob2.jpg);
+    url(../images/header-mob@2x.jpg);
  }
-}

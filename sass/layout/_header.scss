@@ -1,3 +1,4 @@
+@media screen and (max-width: 1200px) {
 .header {
 	display: flex;
     border-bottom: 1px solid #ececec;
@@ -9,10 +10,11 @@
 
 
 		.header-port {
-			
+				width: 1200px;
 				display: flex;
 				align-items: center;
 		}
+}
 		@media screen and (max-width: 767px) {
 		  .header-port {
 			  width: 100%;
