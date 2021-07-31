@@ -1,8 +1,13 @@
+
+@media not all, screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) }
+  .hero {
+ background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+ url(../images/heroimg.jpg);
+}
+}
+ 
  @media screen and (min-width: 1200px)  {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-   
-    url(../images/heroimg.jpg);
     max-width: 1600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +15,9 @@
      text-align: center;
      padding-top: 200px;
      padding-bottom: 200px;
+     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+   
+    url(../images/heroimg.jpg);
  }
  
   .hero__text {
@@ -24,12 +32,25 @@
     color: var(--main-title-color);
   }
  }
- @media not all, screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+ @media not all, screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
    .hero {
-    background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/tablet-img/herotablet.jpg);
+   }
+ }
+ @media screen and (min-width: 768px) {
+   .hero {
+     max-width: 768px;
+     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../images/tablet-img/herotablet.jpg);
+   }
+ }
+ @media not all, screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) and (min-width: 480px) {
+   .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/header-mob@2x.jpg);
    }
-
+  }
 @media screen and (min-width: 480px) {
  .hero {
   max-width: 480px;
@@ -44,3 +65,4 @@
   background-image: linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
     url(../images/header-mob@2x.jpg);
  }
+}
