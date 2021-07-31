@@ -1369,57 +1369,58 @@ a {
   margin-bottom: 16px;
 }
 
-.current-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .current-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .client__heading {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .client__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .client {
+    width: 170px;
+    height: 92px;
+  }
+  .client:hover {
+    border: 1px solid var(--color-link-title);
+    border-radius: 4px;
+  }
+  .client:focus {
+    border: 1px solid var(--color-link-title);
+    border-radius: 4px;
+  }
+  .client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  }
+  .client__link:hover .client-icon {
+    fill: var(--color-link-title);
+  }
+  .client__link:focus .client-icon {
+    fill: var(--color-link-title);
+  }
 }
 
-.client__heading {
-  color: var(--title-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.client__list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.client {
-  width: 170px;
-  height: 92px;
-}
-
-.client:hover {
-  border: 1px solid var(--color-link-title);
-  border-radius: 4px;
-}
-
-.client:focus {
-  border: 1px solid var(--color-link-title);
-  border-radius: 4px;
-}
-
-.client__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-
-.client__link:hover .client-icon {
-  fill: var(--color-link-title);
-}
-
-.client__link:focus .client-icon {
-  fill: var(--color-link-title);
+@media screen and (min-width: 480px) {
+  .current-clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .link-active-port {
