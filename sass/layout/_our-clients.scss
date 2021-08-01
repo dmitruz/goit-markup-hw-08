@@ -52,7 +52,7 @@
 			.client-icon {
 				fill: var(--color-link-title);
 }
-}
+		}
 .client__link {
 	height: 92px;
 	}
@@ -87,8 +87,6 @@
 		}
 	}
 }
-	
-
 @media screen and (min-width: 1200px) {
 	.current-clients {
 		padding-top: 94px;
@@ -138,4 +136,4 @@
 				fill: var(--color-link-title);
 			}
 		}
-	}	
+	}
