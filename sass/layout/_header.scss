@@ -211,38 +211,27 @@
   .menu-container.is-open {
 	transform: translateX(0);
   }
-  
-  .contacts,
+  @media screen and (max-width: 768px) {
   .menu {
-	@media screen and (max-width: 767px) {
-	  display: none;
+	 display: none;
+	}
+	.contacts {
+		display: none;
 	}
   }
-  
+
   .menu-toggle {
-	position: absolute;
-	top: 50%;
-	right: 10px;
-	min-height: 40px;
-	min-width: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transform: translateY(-50%);
-  
-	margin: 0;
-	padding: 0;
 	background-color: transparent;
-	cursor: pointer;
-	border: none;
-	border-radius: 50%;
-	outline: none;
-	fill: black;
+    border: none;
+    padding: 0;
+    line-height: 0;
+  }
   
 	@media (min-width: 768px) {
+		.menu-toggle {
 	  display: none;
 	}
-  }
+}
   
   .menu-toggle:hover,
   .menu-toggle:focus {
