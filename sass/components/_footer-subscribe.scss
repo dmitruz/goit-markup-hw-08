@@ -1,3 +1,68 @@
+@media screen and (min-width: 480px) {
+   .footer-subscribe {
+      margin-top: 60px;
+      width: 358px;
+   }
+   .footer__subscribe-title {
+      font-family: 'Roboto';
+      margin-bottom: 20px;
+       font-weight: 700;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.03em;
+       text-align: center;
+       text-transform: uppercase;
+       color: var(--address-text-color);
+   }
+   .footer__subscribe-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .subscribe-email {
+      width: 358px;
+      height: 50px;
+      margin-right: 12px;
+      padding: 15px 16px;
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      box-sizing: border-box;
+      border-radius: 4px;
+      font-size: 16px;
+      line-height: 1.25;
+      color: var(--address-text-color); 
+   }
+   .footer-mail {
+      margin-bottom: 20px;
+   }
+   .subscribe-btn {
+      display: inline-flex;
+      color: var(--address-text-color);
+      background-color: var(--color-link-title);
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.8;
+      border: none;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      transition: background-color 250ms linear;
+      border-radius: 4px;
+       align-items: center;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 29px;
+       padding-right: 20px;
+       cursor: pointer;
+   }
+   .icon-send {
+      width: 24px;
+       height: 24px;
+       margin-left: 10px;
+      fill: var(--address-text-color);
+   }
+  }
+
+
+@media screen and (min-width: 1200px) {
 .footer-subscribe {
     margin-left: 98px;
  }
@@ -50,3 +115,4 @@
      margin-left: 10px;
     fill: var(--address-text-color);
  }
+}
