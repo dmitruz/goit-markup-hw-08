@@ -1,8 +1,9 @@
-.what-we-do-section {
-	padding-bottom: 94px;
-	padding-top: 94px;
-}
+
 @media screen and (max-width: 1200px) {
+	.what-we-do-section {
+		padding-bottom: 94px;
+		padding-top: 94px;
+	}
 	.what-we-do-section {
 		display: none;
 	}
@@ -49,7 +50,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 354px;
+		width: 450px;
 		height: 120px;
 		background-color: var(--our-team-background);
 		margin-bottom: 30px;

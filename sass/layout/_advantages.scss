@@ -25,8 +25,9 @@
 	}
 }
 .advantages__item {
-	flex-basis: calc((100% - 120px) / 4);
+	margin-bottom: 30px;
 	margin-left: 15px;
+	
 }
 	.advantages__list.advantages__item {
 		&:not(:last-child) {
