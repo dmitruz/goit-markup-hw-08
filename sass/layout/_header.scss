@@ -13,8 +13,10 @@
 		.contacts {
 			display: none;
 		}
+	.menu {
+		display: none;
 	}
-
+	}
 @media screen and (max-width: 1200px) {
 	.header {
 		display: flex;
@@ -225,6 +227,7 @@
     border: none;
     padding: 0;
     line-height: 0;
+	margin: 0 auto;
   }
   
 	@media (min-width: 768px) {

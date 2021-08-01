@@ -64,10 +64,11 @@
 
 @media screen and (min-width: 1200px) {
 .footer-subscribe {
-    margin-left: 98px;
+    margin-top: 0;
  }
  .footer__subscribe-title {
     font-family: 'Roboto';
+    text-align: left;
     margin-bottom: 20px;
      font-weight: 700;
      font-size: 14px;
@@ -77,7 +78,11 @@
      color: var(--address-text-color);
  }
  .footer__subscribe-form {
-    display: flex;
+    flex-direction: row;
+ }
+ .footer-mail {
+   margin-right: 12px;
+   margin-bottom: 0;
  }
  .subscribe-email {
     width: 358px;
