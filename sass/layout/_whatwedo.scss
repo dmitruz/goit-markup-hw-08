@@ -1,31 +1,10 @@
 
-	.advant-item {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 450px;
-		height: 120px;
-		background-color: var(--our-team-background);
-		margin-bottom: 30px;
-	
-}
-	@media screen and (min-width: 768px) {
-		.advant-item {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 360px;
-		height: 120px;
-		background-color: var(--our-team-background);
-		margin-bottom: 30px;
-	}
-}
-@media screen and (max-width: 1200px) {
 	.what-we-do-section {
 		padding-bottom: 94px;
 		padding-top: 94px;
 	}
-	.what-we-do-section {
+	@media screen and (min-width: 480px) {
+		.what-we-do-section {
 		display: none;
 	}
 }
@@ -82,7 +61,6 @@
 	text-transform: uppercase;
 	background-color: var(--background-color);
 	color: var(--color-link-footer);
+
 }
-.advant-item {
-	width: 270px;
-}
+
