@@ -115,6 +115,24 @@
 	width: 354px;
 }
 }
+@media screen and (min-width: 1200px) {
+	.section-advantages {
+		padding-top: 94px;
+	}
+	.advantages__list {
+		display: flex;
+		list-style: none;
+		padding: 0;
+	}
+
+	.advantages__item {
+		flex-basis: calc((100% - 120px) / 4);
+		margin-left: 30px;
+	}
+.advant-item {
+	width: 270px;
+}
+}
 /*
 }
 @media screen and (min-width: 768px) {
