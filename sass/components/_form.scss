@@ -1,15 +1,5 @@
 
-@media screen and (min-width: 480px) {
-	.checkbox-label {
-		display: flex;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 12px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-	}
 
-}
 .form-text {
 	font-family: var(--main-font);
 	font-style: normal;
@@ -136,13 +126,12 @@
 		border-color: #2196F3;
 		transition: border-color 250ms, linear;
 	}
-}/*
+}
+
+
+
 .checkbox-label {
-	display: flex;
-	align-items: center;
-	font-size: 14px;
-	margin-bottom: 30px;
-	margin-left: 20px;
+	
 	&::before {
 		display: block;
 		content: "";
@@ -215,4 +204,14 @@
 	text-decoration: underline;
 	color: var(--color-link-title);
 }
-*/
+@media screen and (min-width: 480px) {
+	.checkbox-label {
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 1.7;
+		letter-spacing: 0.03em;
+		color: var(--title-color);
+	}
+	}

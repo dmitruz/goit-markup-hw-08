@@ -13,6 +13,7 @@
 	}
 }
 .img-text {
+	font-family: 'Roboto';
 	padding: 20px 24px;
 	border: 1px solid #eeeeee;
 	border-top: 0;
@@ -27,7 +28,8 @@
 }
 
 .poster__name {
-	
+	font-family: 'Roboto';
+	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -46,6 +48,8 @@
 	overflow: hidden;
 }
 .poster__desc {
+	font-family: 'Roboto';
+	font-style: normal;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
