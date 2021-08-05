@@ -39,6 +39,7 @@ url(../images/tablet-img/herotab@2x.jpg);
     url(../images/heroimg@2x.jpg);
   }
   @media screen and (min-width: 1200px)  {
+    .hero {
     max-width: 1600px;
    background-repeat: no-repeat;
    background-position: center;
@@ -51,12 +52,15 @@ url(../images/tablet-img/herotab@2x.jpg);
   
    url(../images/heroimg.jpg);
 }
+  }
 .hero__text {
+  font-family: 'Roboto';
   margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 360px;
-    font-size: 24px;
+    
+    font-size: 44px;
+    font-weight: 900;
     line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;

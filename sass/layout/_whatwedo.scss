@@ -3,10 +3,7 @@
 		padding-bottom: 94px;
 		padding-top: 94px;
 	}
-	.what-we-do-section {
-		padding-bottom: 94px;
-		padding-top: 94px;
-	}
+	
 .what-we-do__section-description {
 	font-weight: bold;
 	font-size: 36px;
@@ -63,23 +60,13 @@
 
 }
 
-
-
-	@media screen and (min-width: 480px) {
-		.what-we-do-section {
+@media screen and (max-width: 1200px) {
+	.what-we-do-section {
 		display: none;
-	}
-}
-@media screen and (min-width: 768px) {
-	.what-we-do-section {
-	display: none;
-}
-}
-@media screen and (min-width: 1200px) {
-	.what-we-do-section {
 		padding-bottom: 94px;
 		padding-top: 94px;
 	}
+}
 .what-we-do__section-description {
 	font-weight: bold;
 	font-size: 36px;
@@ -135,5 +122,5 @@
 	color: var(--color-link-footer);
 
 }
-}
+
 

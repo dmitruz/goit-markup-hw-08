@@ -7,6 +7,17 @@
 	background-color: var(--our-team-background);
 	margin-bottom: 30px;
 }
+.text-list {
+	font-family: Roboto;
+	font-style: normal;
+	color: var(--title-color);
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
 @media screen and (min-width: 480px) {
 	.advant-item {
 		display: flex;
@@ -118,6 +129,18 @@
 @media screen and (min-width: 1200px) {
 	.section-advantages {
 		padding-top: 94px;
+	}
+	.text-list {
+		font-family: Roboto;
+		font-style: normal;
+		color: var(--title-color);
+		line-height: 1.1;
+		letter-spacing: 0.03em;
+		font-weight: 700;
+		margin-bottom: 10px;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: left;
 	}
 	.advantages__list {
 		display: flex;
