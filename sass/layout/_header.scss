@@ -19,13 +19,22 @@ display: flex;
 	line-height: 1.1;
 	letter-spacing: 0.02em;
 	border-bottom: 1px solid #ececec;
-
+}
+.menu {
+display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
     padding-top: 24px;
     padding-bottom: 24px;
   
+
 }
   @media screen and (min-width: 1200px) {
     padding-top: 21px;
@@ -63,6 +72,11 @@ display: flex;
 	text-decoration: none;
 	margin-right: 95px;
 }
+@media screen and (min-width: 768px) {
+	.logo {
+		margin-right: 0;
+	}
+}
 .logo-footer {
 	font-family: Raleway;
 	color: var(--title-color);
@@ -89,15 +103,7 @@ a {
 .list {
 	display: flex;
 }
-.menu {
-	display: flex;
-	align-items: center;
-	margin-left: 93px;
-  
-	@media screen and (max-width: 768px) {
-	  display: none;
-	}
-  }
+
   .menu .link-active {
 	display: inline-block;
 	position: relative;
@@ -165,19 +171,7 @@ a {
 		color: var(--color-link-title);
 	}
 }
-.contacts {
-	.contact__item {
-		+ {
-			.contact__item {
-				margin-left: 50px;
-			}
-		}
-	}
-	display: flex;
-	margin-left: auto;
-	list-style: none;
-	align-items: center;
-}
+
 .icon-item {
 	width: 16px;
 	height: 12px;
@@ -201,25 +195,8 @@ a {
 .menu__item {
 	margin-left: 50px;
 }
-.contacts {
-	.contact__item {
-		+ {
-			.contact__item {
-				margin-left: 50px;
-			}
-		}
-	}
-	display: flex;
-	margin-left: auto;
-	list-style: none;
-	align-items: center
-}
-@media screen and (max-width: 767px) {
-	
-.contacts {
-	display: none;
-}
-}
+
+
 
 @media screen and (min-width: 768px) {
 	.header {
@@ -231,16 +208,13 @@ a {
 	display: flex;
 	align-items: center;
 }
-.menu {
-	display: none;
+
 }
 .burger-btn {
 	display: none;
 }
-.contacts {
-	display: none;
-}
-}
+
+
 @media screen and (min-width: 1200px) {
 	.header-port {
 		justify-content: space-between;
@@ -310,15 +284,8 @@ a {
 .burger-btn {
 	display: none;
 }
-.contacts {
-	flex-direction: row;
-    align-items: center;
-	margin-left: auto;
-}
-.contact__item:not(:last-child) {
-    margin-left: 50px;
 
-}
+
 
 .header__contact-link {
 	font-family: var(--main-font);
