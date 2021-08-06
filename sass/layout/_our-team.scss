@@ -12,6 +12,11 @@
 		margin-top: -50px;
 		align-items: center;
 	}
+@media screen and (min-width: 480px) {
+	.our-team__list {
+		display: inline-block;
+	}
+}
 .section-descriotion {
 font-family: Roboto;
 font-style: normal;

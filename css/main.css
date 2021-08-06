@@ -1061,7 +1061,13 @@ a {
 
 @media screen and (min-width: 768px) {
   .logo {
-    margin-right: 0;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-right: 95px;
   }
 }
 
@@ -1166,13 +1172,6 @@ a {
   color: var(--color-link-title);
 }
 
-@media screen and (min-width: 768px) {
-  .contacts {
-    display: block;
-    margin-left: auto;
-  }
-}
-
 .icon-item {
   width: 16px;
   height: 12px;
@@ -1199,6 +1198,18 @@ a {
   margin-left: 50px;
 }
 
+@media screen and (min-width: 480px) {
+  .menu__item {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu__item {
+    margin-bottom: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header {
     padding-top: 24px;
@@ -1209,10 +1220,6 @@ a {
     display: flex;
     align-items: center;
   }
-}
-
-.burger-btn {
-  display: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1277,9 +1284,6 @@ a {
     bottom: -31px;
     left: 0;
   }
-  .burger-btn {
-    display: none;
-  }
   .header__contact-link {
     font-family: var(--main-font);
     font-style: normal;
@@ -1337,6 +1341,12 @@ a {
   fill: var(--primary-dark-color);
 }
 
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
 .mobile-menu {
   position: fixed;
   z-index: 100;
@@ -1361,7 +1371,11 @@ a {
   pointer-events: auto;
 }
 
-.modile-nav__item:not(:last-child) {
+.mobile-nav {
+  margin-bottom: 32px;
+}
+
+.mobile-nav__item {
   margin-bottom: 32px;
 }
 
@@ -1382,8 +1396,10 @@ a {
   margin-bottom: 64px;
 }
 
-.mobile-contact__item:not(:last-child) {
-  margin-bottom: 32px;
+@media screen and (min-width: 768px) {
+  .mobile-contact__item {
+    margin-bottom: 0;
+  }
 }
 
 .mobile-contact__link-tel {
@@ -1707,6 +1723,16 @@ a {
   text-transform: uppercase;
 }
 
+.grey-text {
+  font-family: 'Roboto';
+  color: var(--text-color);
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  text-align: left;
+}
+
 @media screen and (min-width: 480px) {
   .advant-item {
     display: flex;
@@ -1729,21 +1755,15 @@ a {
   }
 }
 
-.text-list {
-  font-family: Roboto;
-  font-style: normal;
-  color: var(--title-color);
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
 @media screen and (min-width: 480px) {
   .text-list {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text-list {
+    text-align: left;
   }
 }
 
@@ -2090,6 +2110,12 @@ a {
   margin-left: -30px;
   margin-top: -50px;
   align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .our-team__list {
+    display: inline-block;
+  }
 }
 
 .section-descriotion {
@@ -2577,9 +2603,11 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  justify-content: center;
-  margin-left: -8px;
-  margin-top: -15px;
+  .main__btn-list {
+    justify-content: center;
+    margin-left: -8px;
+    margin-top: -15px;
+  }
 }
 
 .main__item {
@@ -2670,6 +2698,7 @@ a {
   padding: 20px 24px;
   border: 1px solid #EEE;
   border-top: 0;
+  flex-grow: 1;
 }
 
 .poster__item:hover {
@@ -2688,6 +2717,14 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .poster__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 
 .team-list-img-wraper {
@@ -2727,5 +2764,41 @@ a {
 
 .poster__item:hover .overlay {
   transform: translateY(0%);
+}
+
+@media screen and (min-width: 480px) {
+  .menu {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  .contacts {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+}
+
+.mobile-contact__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-contact__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

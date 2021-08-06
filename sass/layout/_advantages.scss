@@ -18,6 +18,16 @@
 	font-size: 14px;
 	text-transform: uppercase;
 }
+.grey-text {
+	font-family: 'Roboto';
+	color: var(--text-color);
+	line-height: 1.7;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	font-size: 14px;
+	text-align: left;
+
+}
 @media screen and (min-width: 480px) {
 	.advant-item {
 		display: flex;
@@ -42,23 +52,16 @@
 }
 }
 
-	.text-list {
-		font-family: Roboto;
-		font-style: normal;
-		color: var(--title-color);
-		line-height: 1.1;
-		letter-spacing: 0.03em;
-		font-weight: 700;
-		margin-bottom: 10px;
-		font-size: 14px;
-		text-transform: uppercase;
-	}
 	@media screen and (min-width: 480px) {
 		.text-list {
 			text-align: center;
 		}
 	}
-	
+	@media screen and (min-width: 768px) {
+		.text-list {
+			text-align: left;
+		}
+	}
 .advantages__list {
 	display: flex;
 	list-style: none;
