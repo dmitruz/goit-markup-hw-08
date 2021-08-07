@@ -355,7 +355,7 @@ a {
 .burger-btn {
     background-color: transparent;
   border: none;
-  padding-right: 40px;
+  
 
   &__icon {
     fill: var(--primary-dark-color);
@@ -395,9 +395,11 @@ a {
 	  margin-bottom: 32px;
   }
   .mobile-nav__item {
+	  
 	  margin-bottom: 32px;
   }
   .mobile-nav__link {
+	font-family: 'Roboto';
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 1.2;
@@ -414,7 +416,10 @@ a {
 	margin-top: auto;
 	margin-bottom: 64px;
   }
- 
+ .mobile__menu-close-icon {
+	 width: 24px;
+	 height: 24px;
+ }
   @media screen and (min-width: 768px) {
 	.mobile-contact__item {
 		  margin-bottom: 0;
@@ -422,9 +427,9 @@ a {
 }
 
   .mobile-contact__link-tel {
+	font-family: 'Roboto';
+	font-weight: 500;  
 	margin-bottom: 32px;
-  
-	font-weight: 500;
 	font-size: 34px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -432,6 +437,8 @@ a {
 	color: var(--color-link-title);
   }
   .mobile-contact__link-mail {
+	font-family: 'Roboto';
+	font-weight: 500; 
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 1.2;
@@ -479,10 +486,10 @@ a {
 	align-items: center;
 	justify-content: center;
   
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	border-radius: 50%;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: none;
 	background-color: transparent;
 	cursor: pointer;
   

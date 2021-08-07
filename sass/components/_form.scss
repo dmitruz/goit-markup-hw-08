@@ -135,11 +135,11 @@
 	&::before {
 		display: block;
 		content: "";
-		width: 16px;
+		width: 13px;
 		height: 15px;
-		border: 1px solid var(--title-color);
+		border: 2px solid var(--title-color);
 		border-radius: 2px;
-		margin-right: 10px;
+		margin-right: 8px;
 	}
 }
 .checkbox {
@@ -214,4 +214,15 @@
 		letter-spacing: 0.03em;
 		color: var(--title-color);
 	}
+	}
+	@media screen and (min-width: 768px) {
+		.checkbox-label {
+	    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+	color: #757575;
+		}
 	}

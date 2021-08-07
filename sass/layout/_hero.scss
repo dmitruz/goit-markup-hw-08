@@ -67,6 +67,16 @@ url(../images/tablet-img/herotab@2x.jpg);
     text-transform: uppercase;
     color: #fff;
 }
+@media screen and (min-width: 480px) {
+  .hero__text {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__text {
+    font-size: 44px;
+  }
+}
 @media screen and (min-width: 1200px) {
   font-size: 44px;
   max-width: 696px;
