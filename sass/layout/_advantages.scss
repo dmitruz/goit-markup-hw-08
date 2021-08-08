@@ -56,8 +56,14 @@
 		.text-list {
 			text-align: center;
 		}
+		.advantages__item {
+			margin-left: 0;
+		}
 	}
 	@media screen and (min-width: 768px) {
+		.section-advantages {
+			padding-bottom: 30px;
+		}
 		.text-list {
 			text-align: left;
 		}
@@ -79,7 +85,7 @@
 
 .advantages__item {
 	margin-bottom: 30px;
-	margin-left: 15px;
+
 }	
 
 

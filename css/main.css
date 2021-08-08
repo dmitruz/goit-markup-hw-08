@@ -278,19 +278,41 @@ body {
   background: var(--color-link-title);
 }
 
-.section-description {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-  margin-bottom: 75px;
+@media screen and (min-width: 480px) {
+  .section-description {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 30px;
+  }
 }
 
-.what-we-do-description {
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 768px) {
+  .section-description {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-description {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    margin-bottom: 50px;
+  }
+  .what-we-do-description {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -608,6 +630,12 @@ body {
   }
 }
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--primary-background);
+}
+
 @media screen and (min-width: 480px) {
   .footer-wrapper {
     display: flex;
@@ -616,11 +644,6 @@ body {
   }
   .logo-footer {
     margin: 0;
-  }
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--primary-background);
   }
   .footer-list {
     list-style: none;
@@ -700,11 +723,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--primary-background);
-  }
   .footer-section {
     width: 768px;
     flex-direction: row;
@@ -802,11 +820,6 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer {
-    background: var(--primary-background);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
   .footer-section {
     width: 1200px;
     display: flex;
@@ -1104,12 +1117,6 @@ a {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .logo {
-    margin-right: 95px;
-  }
-}
-
 .logo-footer {
   font-family: Raleway;
   color: var(--title-color);
@@ -1266,6 +1273,9 @@ a {
     justify-content: space-between;
     display: flex;
     align-items: center;
+  }
+  .menu {
+    margin-left: 20px;
   }
   .main-nav {
     display: flex;
@@ -1818,9 +1828,15 @@ a {
   .text-list {
     text-align: center;
   }
+  .advantages__item {
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .section-advantages {
+    padding-bottom: 30px;
+  }
   .text-list {
     text-align: left;
   }
@@ -1840,7 +1856,6 @@ a {
 
 .advantages__item {
   margin-bottom: 30px;
-  margin-left: 15px;
 }
 
 .advantages__list.advantages__item:not(:last-child) {
@@ -2216,7 +2231,6 @@ a {
   display: flex;
   align-items: center;
   margin-top: 16px;
-  padding-bottom: 30px;
   justify-content: center;
 }
 
@@ -2296,16 +2310,6 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
   }
-  .logo-set {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 16px;
-    width: 206px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .logo-cards:not(:last-child) {
     margin-right: 10px;
   }
@@ -2336,7 +2340,7 @@ a {
 @media screen and (min-width: 480px) and (min-width: 768px) {
   .our-team-section {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     background-color: var(--our-team-background);
   }
   .section-descriotion {
@@ -2393,7 +2397,6 @@ a {
     display: flex;
     list-style: none;
     margin-left: -30px;
-    margin-top: -50px;
     align-items: center;
   }
   .section-descriotion {
@@ -2421,8 +2424,10 @@ a {
     display: flex;
     align-items: center;
     margin-top: 16px;
-    padding-bottom: 30px;
     justify-content: center;
+    width: 206px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .logo-cards:not(:last-child) {
     margin-right: 10px;
@@ -2470,15 +2475,26 @@ a {
   }
 }
 
+.client__heading {
+  font-family: 'Roboto';
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2x;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--company-text-color);
+}
+
 @media screen and (min-width: 480px) {
   .current-clients {
     padding-top: 60px;
     padding-bottom: 60px;
   }
   .client__heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.2x;
     text-align: center;
     letter-spacing: 0.03em;
@@ -2523,9 +2539,9 @@ a {
     padding-bottom: 60px;
   }
   .client__heading {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.2x;
     text-align: center;
     letter-spacing: 0.03em;
@@ -2621,10 +2637,15 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .poster-section {
+    padding-top: 30px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main-section {
     padding-top: 94px;
-    padding-bottom: 94px;
   }
   .footer__list {
     text-align: left;
@@ -2646,20 +2667,21 @@ a {
   border-radius: 4px;
   margin-right: 8px;
   color: var(--title-color);
+  transition: transform 250ms linear;
 }
 
 .btn-port:hover {
   background: var(--color-link-title);
   color: var(--address-text-color);
   cursor: pointer;
-  transition: transform 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-port:focus {
   background: var(--color-link-title);
   color: var(--address-text-color);
   cursor: pointer;
-  transition: transform 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main__btn-list {
@@ -2772,9 +2794,12 @@ a {
 }
 
 .img-text {
+  font-family: 'Roboto';
   border: 1px solid #eeeeee;
   border-top: 0;
-  padding: 20px 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   border: 1px solid #EEE;
   border-top: 0;
   flex-grow: 1;
@@ -2851,7 +2876,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  line-height: 1.2;
+  line-height: 1.55;
   height: 100%;
   width: 100%;
   overflow: auto;

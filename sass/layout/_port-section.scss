@@ -11,12 +11,14 @@
  }
 }
  @media screen and (min-width: 768px) {
-     
+     .poster-section {
+        padding-top: 30px;
+     }
 }
 @media screen and (min-width: 1200px) {
      .main-section {
         padding-top: 94px;
-        padding-bottom: 94px;
+        
      }
 .footer__list {
     text-align: left;

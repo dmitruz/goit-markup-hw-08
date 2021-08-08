@@ -1,3 +1,8 @@
+.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: var(--primary-background);
+}
 @media screen and (min-width: 480px) {
 	.footer-wrapper {
 		display: flex;
@@ -7,11 +12,7 @@
 	.logo-footer {
 		margin: 0;
 	}
-	.footer {
-		padding-top: 60px;
-		padding-bottom: 60px;
-		background-color: var(--primary-background);
-	}
+
 	.footer-list {
 		list-style: none;
 	}
@@ -96,11 +97,7 @@
 }
 @media screen and (min-width: 768px) {
 
-	.footer {
-		padding-top: 60px;
-		padding-bottom: 60px;
-		background-color: var(--primary-background);
-	}
+
 .footer-section {
 		width: 768px;
 		flex-direction: row;
@@ -202,11 +199,7 @@
 }
 }
 @media screen and (min-width: 1200px) {	
-	.footer {
-		background: var(--primary-background);
-		padding-top: 60px;
-		padding-bottom: 60px;
-	}
+	
 	.footer-section  {
 		width: 1200px;
 		display: flex;

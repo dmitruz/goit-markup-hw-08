@@ -1,13 +1,36 @@
-.section-description {
-    font-weight: bold;
-     font-size: 36px;
-     line-height: 42px;
-     text-align: center;
-     letter-spacing: 0.03em;
-     color:  var(--title-color);
-     margin-bottom: 75px;
+
+
+ @media screen and (min-width: 480px) {
+     .section-description {
+        font-family: 'Roboto';
+        font-weight: bold;
+         font-size: 28px;
+         line-height: 1.16;
+         text-align: center;
+         letter-spacing: 0.03em;
+         color:  var(--title-color);
+         margin-bottom: 30px;
+    }
+}
+ @media screen and (min-width: 768px) {
+     .section-description {
+    font-size: 28px;
+    margin-bottom: 30px;
  }
- .what-we-do-description {
-    display: flex;
-    justify-content: center;
+ }
+ @media screen and (min-width: 1200px) {
+    .section-description {
+        font-family: 'Roboto';
+        font-weight: bold;
+         font-size: 36px;
+         line-height: 1.16;
+         text-align: center;
+         letter-spacing: 0.03em;
+         color:  var(--title-color);
+         margin-bottom: 50px;
+     }
+     .what-we-do-description {
+        display: flex;
+        justify-content: center;
+     }
  }
